@@ -1,0 +1,40 @@
+.landing-navbar {
+  background: #1e1e1e;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.nav-right .btn {
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s;
+  border: none;
+  cursor: pointer;
+  border: #4fc3e0 2px solid;
+}
+
+.nav-right .btn:hover {
+  background-color: #4fc3e0;
+}
+
+.logout-btn {
+  background-color: #1e1e1e;
+  color: white;
+}
+
+.logout-btn:hover {
+  background-color: #c0392b;
+}

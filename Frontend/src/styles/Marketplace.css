@@ -1,0 +1,38 @@
+.marketplace-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 25px;
+  background: #f9f9fb;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.marketplace-header {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.marketplace-header h2 {
+  font-size: 1.8rem;
+  color: #222;
+  margin-bottom: 6px;
+}
+
+.marketplace-header p {
+  color: #666;
+  font-size: 1rem;
+}
+
+@media (max-width: 600px) {
+  .marketplace-container {
+    padding: 15px;
+  }
+
+  .marketplace-header h2 {
+    font-size: 1.5rem;
+  }
+
+  .marketplace-header p {
+    font-size: 0.9rem;
+  }
+}

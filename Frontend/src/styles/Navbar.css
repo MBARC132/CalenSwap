@@ -1,0 +1,30 @@
+.main-navbar {
+  background-color: #eadfdf;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  margin: 12px;
+  border-radius: 15px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-item {
+  color: black;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: color 0.3s, transform 0.2s;
+}
+
+.nav-item:hover {
+  color: #61dafb;
+  transform: scale(1.05);
+}

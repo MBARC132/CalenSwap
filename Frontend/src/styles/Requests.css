@@ -1,0 +1,20 @@
+.requests-page {
+  padding: 20px;
+}
+
+.requests-page h2 {
+  margin-bottom: 15px;
+}
+
+.requests-container {
+  display: flex;
+  gap: 30px;
+}
+
+.requests-list {
+  flex: 1;
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+}
